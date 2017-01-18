@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Discovering Mumbai — Priyanka Lakhiani </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+  
+  body {
+  height: 100vh;
+  width: 100vh;
+  margin: 0;
+  background: url("mumbai.png");  
+  background-size: 205vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+  h1 {
+    padding-top: 0px;
+    top: 0px;
+    left: 1vw;
+    position: absolute;
+    font-family: "Cambria", serif;
+    text-align: center;
+    color: #F7FFFA;
+    letter-spacing: 2px;
+    font-size: 55px;
+  }
+
+  h2 {
+    padding-top: 0px;
+    top: 80px;
+    left: 1vw;
+    position: absolute;
+    font-family: "Cambria", serif;
+    text-align: center;
+    color: #F7FFFA;
+    letter-spacing: 5px;
+    font-size: 30px;
+  }
+
+.outer {
+  height: 400rem;
+  width: 400rem;
+}
+
+.container {
+  position: absolute;
+  border-radius: 100%;
+  top: 90vh;
+  left: 50vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+
+.container:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container2 {
+  position: absolute;
+  border-radius: 100%;
+  top: 80vh;
+  left: 48vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+
+
+.container2:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container2:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container3 {
+  position: absolute;
+  border-radius: 100%;
+  top: 44vh;
+  left: 53vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+.container3:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container3:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container4 {
+  position: absolute;
+  border-radius: 100%;
+  top: 59vh;
+  left: 46vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+.container4:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container4:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container5 {
+  position: absolute;
+  border-radius: 100%;
+  top: 72vh;
+  left: 51vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+.container5:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container5:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container6 {
+  position: absolute;
+  border-radius: 100%;
+  top: 27vh;
+  left: 48vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+.container6:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container6:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container7 {
+  position: absolute;
+  border-radius: 100%;
+  top: 7vh;
+  left: 50vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+.container7:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container7:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container8 {
+  position: absolute;
+  border-radius: 100%;
+  top: 42vh;
+  left: 47vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+.container8:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container8:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container9 {
+  position: absolute;
+  border-radius: 100%;
+  top: 34vh;
+  left: 55vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+.container9:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container9:hover ~ .image-container {
+  opacity: .25;
+}
+
+
+.container10 {
+  position: absolute;
+  border-radius: 100%;
+  top: 61vh;
+  left: 51vw;
+  border: 0.5px solid #fff;
+  transform: translateY(-50%) translateX(-50%);
+  background-size: 100vw 100vh;
+  background-position: center center;
+  transition: height .3s, width .3s, opacity .3s, box-shadow .3s, transform .3s;
+}
+
+.container10:not(.last):hover {
+  box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.container10:hover ~ .image-container {
+  opacity: .25;
+}
+.center-container {
+  height: 1rem;
+  width: 1rem;
+  z-index: 11;
+  background-color: #222;
+}
+
+.center-container:focus {
+  height: 10px;
+  width: 10px;
+}
+
+.center-container:focus ~ * {
+  transform: translateY(-50%) translateX(-50%) rotate(120deg) scale(0.5);
+  opacity: 0 !important;
+}
+
+.bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .3s, background .3s;
+  background-size: 100vw 100vh;
+  background-position: center center;
+}
+
+.image-container:nth-of-type(1) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(1):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(1),
+.image-container:nth-of-type(1):hover ~ .bg {
+  background-image: url("./pics/port1.png");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(2) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(2):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(2),
+.image-container:nth-of-type(2):hover ~ .bg {
+  background-image: url("./pics/port2.png");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(3) {
+  z-index: 8;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.image-container:nth-of-type(3):hover {
+  height: 2.65rem;
+  width: 2.65rem;
+}
+
+.image-container:nth-of-type(3),
+.image-container:nth-of-type(3):hover ~ .bg {
+  background-image: url("./pics/port3.png");
+  opacity: 1;
+}
+
+
+.image-container:nth-of-type(5) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(5):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(5),
+.image-container:nth-of-type(5):hover ~ .bg {
+  background-image: url("./pics/govt1.png");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(6) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(6):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(6),
+.image-container:nth-of-type(6):hover ~ .bg {
+  background-image: url("./pics/govt2.png");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(7) {
+  z-index: 8;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.image-container:nth-of-type(7):hover {
+  height: 2.65rem;
+  width: 2.65rem;
+}
+
+.image-container:nth-of-type(7),
+.image-container:nth-of-type(7):hover ~ .bg {
+  background-image: url("./pics/govt3.png");
+  opacity: 1;
+}
+
+
+
+.image-container:nth-of-type(9) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(9):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(9),
+.image-container:nth-of-type(9):hover ~ .bg {
+  background-image: url("./pics/dadar1.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(10) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(10):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(10),
+.image-container:nth-of-type(10):hover ~ .bg {
+  background-image: url("./pics/dadar2.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(12) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(12):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(12),
+.image-container:nth-of-type(12):hover ~ .bg {
+  background-image: url("./pics/marine1.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(13) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(13):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(13),
+.image-container:nth-of-type(13):hover ~ .bg {
+  background-image: url("./pics/marine2.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(14) {
+  z-index: 8;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.image-container:nth-of-type(14):hover {
+  height: 2.65rem;
+  width: 2.65rem;
+}
+
+.image-container:nth-of-type(14),
+.image-container:nth-of-type(14):hover ~ .bg {
+  background-image: url("./pics/marine3.jpg");
+  opacity: 1;
+}
+
+
+.image-container:nth-of-type(16) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(16):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(16),
+.image-container:nth-of-type(16):hover ~ .bg {
+  background-image: url("./pics/cst1.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(17) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(17):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(17),
+.image-container:nth-of-type(17):hover ~ .bg {
+  background-image: url("./pics/cst2.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(18) {
+  z-index: 8;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.image-container:nth-of-type(18):hover {
+  height: 2.65rem;
+  width: 2.65rem;
+}
+
+.image-container:nth-of-type(18),
+.image-container:nth-of-type(18):hover ~ .bg {
+  background-image: url("./pics/cst3.jpg");
+  opacity: 1;
+}
+
+
+.image-container:nth-of-type(20) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(20):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(20),
+.image-container:nth-of-type(20):hover ~ .bg {
+  background-image: url("./pics/bandra1.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(21) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(21):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(21),
+.image-container:nth-of-type(21):hover ~ .bg {
+  background-image: url("./pics/bandra2.png");
+  opacity: 1;
+}
+
+
+.image-container:nth-of-type(23) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(23):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(23),
+.image-container:nth-of-type(23):hover ~ .bg {
+  background-image: url("./pics/juhu1.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(24) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(24):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(24),
+.image-container:nth-of-type(24):hover ~ .bg {
+  background-image: url("./pics/juhu2.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(25) {
+  z-index: 8;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.image-container:nth-of-type(25):hover {
+  height: 2.65rem;
+  width: 2.65rem;
+}
+
+.image-container:nth-of-type(25),
+.image-container:nth-of-type(25):hover ~ .bg {
+  background-image: url("./pics/juhu3.jpg");
+  opacity: 1;
+}
+
+
+.image-container:nth-of-type(27) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(27):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(27),
+.image-container:nth-of-type(27):hover ~ .bg {
+  background-image: url("./pics/sea1.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(28) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(28):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(28),
+.image-container:nth-of-type(28):hover ~ .bg {
+  background-image: url("./pics/sea2.jpg");
+  opacity: 1;
+}
+
+
+.image-container:nth-of-type(30) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(30):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(30),
+.image-container:nth-of-type(30):hover ~ .bg {
+  background-image: url("./pics/slum1.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(31) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(31):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(31),
+.image-container:nth-of-type(31):hover ~ .bg {
+  background-image: url("./pics/slum2.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(33) {
+  z-index: 10;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.image-container:nth-of-type(33):hover {
+  height: 1.65rem;
+  width: 1.65rem;
+}
+
+.image-container:nth-of-type(33),
+.image-container:nth-of-type(33):hover ~ .bg {
+  background-image: url("./pics/market1.jpg");
+  opacity: 1;
+}
+
+.image-container:nth-of-type(34) {
+  z-index: 9;
+  height: 2rem;
+  width: 2rem;
+}
+
+.image-container:nth-of-type(34):hover {
+  height: 2.15rem;
+  width: 2.15rem;
+}
+
+.image-container:nth-of-type(34),
+.image-container:nth-of-type(34):hover ~ .bg {
+  background-image: url("./pics/market2.jpg");
+  opacity: 1;
+}
+
+</style>
+	<title></title>
+</head>
+<body>
+
+<div class="outer">
+  <div class="inner">
+    <a class="container center-container" href="#0"></a>
+    <div class="container image-container"></div>
+    <div class="container image-container"></div>
+    <div class="container image-container"></div>
+    <div class="bg"></div>
+    <a class="container2 center-container" href="#0"></a>
+    <div class="container2 image-container"></div>
+    <div class="container2 image-container"></div>
+    <div class="container2 image-container"></div>
+    <div class="bg"></div>
+     <a class="container3 center-container" href="#0"></a>
+    <div class="container3 image-container"></div>
+    <div class="container3 image-container"></div>
+    <div class="bg"></div>
+    <a class="container4 center-container" href="#0"></a>
+    <div class="container4 image-container"></div>
+    <div class="container4 image-container"></div>
+    <div class="container4 image-container"></div>
+    <div class="bg"></div>
+    <a class="container5 center-container" href="#0"></a>
+    <div class="container5 image-container"></div>
+    <div class="container5 image-container"></div>
+    <div class="container5 image-container"></div>
+    <div class="bg"></div>
+    <a class="container6 center-container" href="#0"></a>
+    <div class="container6 image-container"></div>
+    <div class="container6 image-container"></div>
+    <div class="bg"></div>
+    <a class="container7 center-container" href="#0"></a>
+    <div class="container7 image-container"></div>
+    <div class="container7 image-container"></div>
+    <div class="container7 image-container"></div>
+    <div class="bg"></div>
+    <a class="container8 center-container" href="#0"></a>
+    <div class="container8 image-container"></div>
+    <div class="container8 image-container"></div>
+    <div class="bg"></div>
+    <a class="container9 center-container" href="#0"></a>
+    <div class="container9 image-container"></div>
+    <div class="container9 image-container"></div>
+    <div class="bg"></div>
+    <a class="container10 center-container" href="#0"></a>
+    <div class="container10 image-container"></div>
+    <div class="container10 image-container"></div>
+    <div class="bg"></div>
+  </div>
+</div>
+</body>
+</html>
